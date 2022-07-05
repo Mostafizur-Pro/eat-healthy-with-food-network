@@ -3,11 +3,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 section {
-  height: 500px;
+  height: 1850px;
   padding-bottom: 150px;
   display: flex;
 }
-#orange {
+.orange {
   color: orange;
 }
 .half-width {
@@ -16,12 +16,70 @@ section {
   width: 40%;
   font-size: 60px;
 }
+#gym-man {
+  height: cover%;
+  margin-bottom: 150px;
+}
 
 .button {
   text-decoration: none;
   padding: 20px 80px;
   border: 1px;
   border-radius: 40px;
-  background-color: orange;
+  background: linear-gradient(60deg, orange, tomato);
+
   color: white;
+}
+.about {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about-me-color {
+  color: gray;
+  text-align: center;
+}
+
+#woman {
+  height: cover%;
+}
+
+#article {
+  text-align: center;
+  margin: 2%;
+  font-size: 40px;
+}
+.recipie div {
+  box-shadow: 10px 10px 40px gray;
+  height: 90%;
+  border-radius: 30px;
+}
+
+footer {
+  background-color: black;
+  height: 300px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.count {
+  box-shadow: 10px 10px 40px gray;
+  display: flex;
+}
+
+footer p {
+  color: rgb(139, 133, 133);
+}
+.gray {
+  color: gray;
+}
+.half-width1 {
+  margin: 5%;
+  padding: 2%;
+  width: 20%;
+  font-size: 60px;
+}
+.sub {
+  height: 20%;
+  width: 80%;
 }
