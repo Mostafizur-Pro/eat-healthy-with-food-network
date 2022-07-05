@@ -1,3 +1,29 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+span {
+  color: orange;
+}
+
+.flexible {
+  display: flex;
+  padding: 80px;
+  font-size: 80px;
+}
+.half-width {
+  width: 50%;
+  height: 400px;
+}
+.order {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid orange;
+  border-radius: 20px;
+  background-color: orange;
+  color: white;
+  font-size: 50px;
+}
+.gym-man {
+  width: 1200px;
+  height: 1200px;
+}
